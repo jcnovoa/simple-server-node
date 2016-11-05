@@ -1,7 +1,6 @@
 var express = require('express');
 var app = express();
 var five = require("johnny-five");
-var Edison = require("edison-io");
 var board = new five.Board();
 
 // reply to request with "Hello World!"
@@ -16,7 +15,7 @@ board.on("ready", function () {
     var server = app.listen(4000, function () {
 
         var port = server.address().port;
-        console.log('MyPIoT is listening on port: ', port);
+        //console.log('MyPIoT is listening on port: ', port);
 
     });
 
