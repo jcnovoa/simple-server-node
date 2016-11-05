@@ -24,6 +24,15 @@
   },
   "homepage": "https://github.com/resin-io-projects/simple-server-node#readme",
   "dependencies": {
-    "express": "*"
+    "express": "*",
+    "johnny-five": "0.10.3",
+    "sqlite3": "3.1.8",
+    "highcharts": "5.0.2",
+    "mqtt": "2.0.1",
+    "noble": "1.7.0",
+    "th02js": "0.0.2",
+    "thingspeakclient": "0.4.0",
+    "twilio": "2.11.0"
+
   }
 }
