@@ -26,7 +26,7 @@
   "dependencies": {
     "express": "*",
     "johnny-five": "*",
-    "sqlite3": "*",
+    "sqlite": "*",
     "highcharts": "*",
     "mqtt": "*",
     "noble": "*",
