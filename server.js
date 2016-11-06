@@ -8,14 +8,18 @@ app.get('/', function (req, res) {
   res.send('Hello IoT World!');
 });
 
-//start a server on port 80 and log its start to our console
-var server = app.listen(4000, function () {
 
-    var port = server.address().port;
-    //console.log('MyPIoT is listening on port: ', port);
+
+board.on("ready", function () {
+
+    //start a server on port 80 and log its start to our console
+    var server = app.listen(4000, function () {
+
+        var port = server.address().port;
+        //console.log('MyPIoT is listening on port: ', port);
+
+    });
 
 });
-
-//board.on("ready", function () { });
 
 
