@@ -20,6 +20,8 @@ board.on("ready", function () {
 
     });
 
+    var blueLED = new five.Led(6);
+    blueLED.blink(1000);
 });
 
 
