@@ -16,12 +16,13 @@ board.on("ready", function () {
     var server = app.listen(4000, function () {
 
         var port = server.address().port;
-        //console.log('MyPIoT is listening on port: ', port);
+        console.log('MyPIoT is listening on port: ', port);
 
     });
 
     var blueLED = new five.Led(6);
     blueLED.blink(1000);
+    console.log('MyPIoT is blinking');
 });
 
 
